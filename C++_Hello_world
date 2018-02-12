@@ -1,0 +1,25 @@
+//My 1st C++ program 
+#include <iostream> //includes the standard iostream libary which allows us to write and read to and from the console, the include also allows us to use code from other liberias 
+int main () { //says to include the main function as an integer. The include allows for big programs to be broken down into smaller peices, 
+//the { is the start of the code block and is localised the mian function 
+//blocks control object lifetime?
+std::cout << "Hello World\n";
+//std represents a "name space" which is provided by a standard libary for printing text? what is the libary does this mean cout is the libary?
+//cout means console output its the equivalnt of cat in bash where we descirbe the end of file ie 
+//cat << EOF //where cat means to concatinate files and print to standard output
+//this is some text which is fed into cat
+//EOF
+//to aviod confrontation with the bash shell language script its eaiser for me for me to read it left to right
+
+//:: means the scope resoultion operator? not sure what this is or what it does?
+// << means pass the thing on the left to the thing on the right in this case we are saying pass the string literal Hello World to the console out and print a new line (/n)
+// is a string literal just quoted text?
+//semi colon for good measure otherwise errors occur
+return 0;
+
+//tells the program to leave the current function
+//returns the value to the caller?
+//no idea what a caller is C++?
+// a value of 0 on the return from main tell the operating system that the program ran sucessfull any value other than is an error by convention  //closes the bracket
+
+}
